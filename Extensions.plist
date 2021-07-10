@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Installed Extensions</key>
+	<array>
+		<dict>
+			<key>Enabled</key>
+			<true/>
+			<key>Extension Identifier</key>
+			<string>com.minamike.popclip.extension.searcher</string>
+			<key>Extension Name</key>
+			<string>Searcher</string>
+			<key>Options</key>
+			<array>
+				<dict>
+					<key>Option Identifier</key>
+					<string>baidu</string>
+					<key>Option Label</key>
+					<string>www.baidu.com</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>google</string>
+					<key>Option Label</key>
+					<string>www.google.com</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>bilibili</string>
+					<key>Option Label</key>
+					<string>bilibili.com</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>music163</string>
+					<key>Option Label</key>
+					<string>music.163.com</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>github</string>
+					<key>Option Label</key>
+					<string>github.com</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>iqiyi</string>
+					<key>Option Label</key>
+					<string>iqiyi.com</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>jd</string>
+					<key>Option Label</key>
+					<string>jd.com</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>taobao</string>
+					<key>Option Label</key>
+					<string>taobao.com</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>youtube</string>
+					<key>Option Label</key>
+					<string>youtube.com</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>zhihu</string>
+					<key>Option Label</key>
+					<string>zhihu.com</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>douban-main</string>
+					<key>Option Label</key>
+					<string>douban.com</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>douban-book</string>
+					<key>Option Label</key>
+					<string>book.douban.com</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>douban-movie</string>
+					<key>Option Label</key>
+					<string>movie.douban.com</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>douban-music</string>
+					<key>Option Label</key>
+					<string>music.douban.com</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>douban-event</string>
+					<key>Option Label</key>
+					<string>douban.com/event</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>amazon-event</string>
+					<key>Option Label</key>
+					<string>amazon.cn</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>abbr-event</string>
+					<key>Option Label</key>
+					<string>Abbr</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>mas-event</string>
+					<key>Option Label</key>
+					<string>MAS</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+			</array>
+			<key>Options Account Title</key>
+			<string>Searcher</string>
+			<key>Options Title</key>
+			<string></string>
+			<key>Package Name</key>
+			<string>Searcher.popclipext</string>
+			<key>PackagePath</key>
+			<string>/Users/alick/Library/Application Support/PopClip/Extensions/Searcher.popclipext</string>
+		</dict>
+		<dict>
+			<key>Enabled</key>
+			<true/>
+			<key>Extension Identifier</key>
+			<string>com.mayuzumi.extension.STA</string>
+			<key>Extension Name</key>
+			<string>Terminal</string>
+			<key>Options</key>
+			<array>
+				<dict>
+					<key>Option Identifier</key>
+					<string>terminal</string>
+					<key>Option Label</key>
+					<string>Terminal</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+			</array>
+			<key>Options Account Title</key>
+			<string>Terminal</string>
+			<key>Options Title</key>
+			<string></string>
+			<key>Package Name</key>
+			<string>Terminal.popclipext</string>
+			<key>PackagePath</key>
+			<string>/Users/alick/Library/Application Support/PopClip/Extensions/Terminal.popclipext</string>
+		</dict>
+		<dict>
+			<key>Enabled</key>
+			<true/>
+			<key>Extension Identifier</key>
+			<string>in.fourplex.popclip.extension.base64</string>
+			<key>Extension Name</key>
+			<string>Cipher</string>
+			<key>Options</key>
+			<array>
+				<dict>
+					<key>Option Identifier</key>
+					<string>64en</string>
+					<key>Option Label</key>
+					<string>Base64 Encode</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>64de</string>
+					<key>Option Label</key>
+					<string>Base64 Decode</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>urlen</string>
+					<key>Option Label</key>
+					<string>URL Encode</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>urlde</string>
+					<key>Option Label</key>
+					<string>URL Decode</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>htmlen</string>
+					<key>Option Label</key>
+					<string>HTML Encode</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>htmlde</string>
+					<key>Option Label</key>
+					<string>HTML Decode</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>conv</string>
+					<key>Option Label</key>
+					<string>Convert</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>html2md</string>
+					<key>Option Label</key>
+					<string>HTML2MD</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>md2html</string>
+					<key>Option Label</key>
+					<string>MD2HTML</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>md2mm</string>
+					<key>Option Label</key>
+					<string>MD2MindMap</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>json</string>
+					<key>Option Label</key>
+					<string>JSONizer</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>calc</string>
+					<key>Option Label</key>
+					<string>Calculate</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>sum</string>
+					<key>Option Label</key>
+					<string>Sum</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Default Value</key>
+					<string>,</string>
+					<key>Option Identifier</key>
+					<string>separator</string>
+					<key>Option Label</key>
+					<string>Separator</string>
+					<key>Option Type</key>
+					<string>string</string>
+				</dict>
+				<dict>
+					<key>Option Default Value</key>
+					<string>.</string>
+					<key>Option Identifier</key>
+					<string>delimiter</string>
+					<key>Option Label</key>
+					<string>Decimal Delimiter</string>
+					<key>Option Type</key>
+					<string>string</string>
+				</dict>
+				<dict>
+					<key>Option Default Value</key>
+					<string>0</string>
+					<key>Option Identifier</key>
+					<string>formatoutput</string>
+					<key>Option Label</key>
+					<string>Format Output</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>short</string>
+					<key>Option Label</key>
+					<string>Shorten Link</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>domain</string>
+					<key>Option Label</key>
+					<dict>
+						<key>en</key>
+						<string>Shortening Service</string>
+					</dict>
+					<key>Option Type</key>
+					<string>multiple</string>
+					<key>Option Values</key>
+					<array>
+						<string>is.gd</string>
+						<string>v.gd</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>dx</string>
+					<key>Option Label</key>
+					<string>DaXie</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+				<dict>
+					<key>Option Identifier</key>
+					<string>pn</string>
+					<key>Option Label</key>
+					<string>PureNumber</string>
+					<key>Option Type</key>
+					<string>boolean</string>
+				</dict>
+			</array>
+			<key>Options Account Title</key>
+			<string>Cipher</string>
+			<key>Options Title</key>
+			<string></string>
+			<key>Package Name</key>
+			<string>Cipher.popclipext</string>
+			<key>PackagePath</key>
+			<string>/Users/alick/Library/Application Support/PopClip/Extensions/Cipher.popclipext</string>
+		</dict>
+		<dict>
+			<key>Enabled</key>
+			<true/>
+			<key>Extension Identifier</key>
+			<string>com.youdao.alfred</string>
+			<key>Extension Name</key>
+			<string>Youdao-Alfred</string>
+			<key>Options</key>
+			<array/>
+			<key>Options Account Title</key>
+			<string>Youdao-Alfred</string>
+			<key>Options Title</key>
+			<string></string>
+			<key>Package Name</key>
+			<string>Youdao-Alfred.popclipext</string>
+			<key>PackagePath</key>
+			<string>/Users/alick/Library/Application Support/PopClip/Extensions/Youdao-Alfred.popclipext</string>
+		</dict>
+		<dict>
+			<key>Enabled</key>
+			<true/>
+			<key>Extension Identifier</key>
+			<string>com.pilotmoon.popclip.extension.alfred</string>
+			<key>Extension Name</key>
+			<string>Alfred</string>
+			<key>Options</key>
+			<array/>
+			<key>Options Account Title</key>
+			<string>Alfred</string>
+			<key>Options Title</key>
+			<string></string>
+			<key>Package Name</key>
+			<string>Alfred.popclipext</string>
+			<key>PackagePath</key>
+			<string>/Users/alick/Library/Application Support/PopClip/Extensions/Alfred.popclipext</string>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>
