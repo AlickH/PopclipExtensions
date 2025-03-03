@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>preview-result</string>
+			<key>Image File</key>
+			<string>64.png</string>
+			<key>Script Interpreter</key>
+			<string>/opt/homebrew/bin/php</string>
+			<key>Shell Script File</key>
+			<string>b64encode.php</string>
+			<key>Title</key>
+			<string>Base64 Encode</string>
+			<key>Requirements</key>
+			<array>
+				<string>option-64en=1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>After</key>
+			<string>preview-result</string>
+			<key>Regular Expression</key>
+			<string>(?s)^[A-Za-z0-9+_\-\/]+=?=?$</string>
+			<key>Image File</key>
+			<string>64Inverse.png</string>
+			<key>Script Interpreter</key>
+			<string>/opt/homebrew/bin/php</string>
+			<key>Shell Script File</key>
+			<string>b64decode.php</string>
+			<key>Title</key>
+			<string>Base64 Decode</string>
+			<key>Requirements</key>
+			<array>
+				<string>option-64de=1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>Percent.png</string>
+			<key>Script Interpreter</key>
+			<string>/bin/bash</string>
+			<key>Shell Script File</key>
+			<string>urlencode.sh</string>
+			<key>Title</key>
+			<string>URL Encode</string>
+			<key>Requirements</key>
+			<array>
+				<string>option-urlen=1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Regular Expression</key>
+			<string>^.*%[0-9A-Fa-f][0-9A-Fa-f].*$</string>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>PercentInverse.png</string>
+			<key>Script Interpreter</key>
+			<string>/opt/homebrew/bin/php</string>
+			<key>Shell Script File</key>
+			<string>urldecode.php</string>
+			<key>Title</key>
+			<string>URL Decode</string>
+			<key>Requirements</key>
+			<array>
+				<string>option-urlde=1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>AmpersandSemicolon.png</string>
+			<key>Script Interpreter</key>
+			<string>/opt/homebrew/bin/php</string>
+			<key>Shell Script File</key>
+			<string>htmlencode.php</string>
+			<key>Title</key>
+			<string>HTML Encode</string>
+			<key>Requirements</key>
+			<array>
+				<string>option-htmlen=1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Regular Expression</key>
+			<string>(?s)^.*&amp;(\w+|#\d+);.*$</string>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>AmpersandSemicolonInverse.png</string>
+			<key>Script Interpreter</key>
+			<string>/opt/homebrew/bin/php</string>
+			<key>Shell Script File</key>
+			<string>htmldecode.php</string>
+			<key>Title</key>
+			<string>HTML Decode</string>
+			<key>Requirements</key>
+			<array>
+				<string>option-htmlde=1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>After</key>
+			<string>preview-result</string>
+			<key>Image File</key>
+			<string>scales.png</string>
+			<key>Regular Expression</key>
+			<string>(?i)^\s*(\d+(?:[\.,]\d+)?)\s?(?:(?:pounds?|lbs?)|(?:ounces?|oz)|(?:centimetres?|centimeters?|cm)|(?:inches|inch|ins?|&quot;)|(?:feet|foot|ft|&apos;)|(?:yards?|yds?)|(?:miles?|mi)|(?:kilometres?|kilometers?|km?)|(?:kilograms?|kilos?|kg)|(?:grams?|g)|(?:metres?|meters?|m)|(?:°?F|(?:degrees?\s)?fahrenheit)|(?:°?C|(?:degrees?\s)?celsius|(?:degrees?\s)?centigrade))\s*$</string>
+			<key>Script Interpreter</key>
+			<string>/opt/homebrew/bin/php</string>
+			<key>Shell Script File</key>
+			<string>convert.php</string>
+			<key>Title</key>
+			<string>Convert</string>
+			<key>Requirements</key>
+			<array>
+				<string>option-conv=1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Shell Script File</key>
+			<string>main.py</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/python3</string>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>JSON.png</string>
+			<key>Title</key>
+			<string>JSONizer</string>
+			<key>Regular Expression</key>
+			<string>\{.*\}</string>
+			<key>Requirements</key>
+			<array>
+				<string>option-json=1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>calc.png</string>
+			<key>Regular Expression</key>
+			<string>^\s*[0-9x\,\.\-\+\*\/\(\)][0-9x\,\.\-\+\*\/\(\)\s]+[0-9x\,\.\-\+\*\/\(\)]\s*=?\s*$</string>
+			<key>Script Interpreter</key>
+			<string>/opt/homebrew/bin/php</string>
+			<key>Shell Script File</key>
+			<string>calculate.php</string>
+			<key>Title</key>
+			<string>Calculate</string>
+			<key>Requirements</key>
+			<array>
+				<string>option-calc=1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Image File</key>
+			<string>sum.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/ruby</string>
+			<key>Shell Script File</key>
+			<string>sum.rb</string>
+			<key>Title</key>
+			<string>Sum</string>
+			<key>Regular Expression</key>
+			<string>(?s)(.*)?\d+(.*)?</string>
+			<key>After</key>
+			<string>preview-result</string>
+			<key>Requirements</key>
+			<array>
+				<string>option-sum=1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>shortlink.png</string>
+			<key>Requirements</key>
+			<array>
+				<string>httpurl</string>
+				<string>option-short=1</string>
+			</array>
+			<key>Script Interpreter</key>
+			<string>/opt/homebrew/bin/php</string>
+			<key>Shell Script File</key>
+			<string>isgd.php</string>
+			<key>Regular Expression</key>
+			<string>http://.*</string>
+			<key>Title</key>
+			<string>Shorten Link</string>
+		</dict>
+		<dict>
+			<key>Image File</key>
+			<string>dx.png</string>
+			<key>Script Interpreter</key>
+			<string>/bin/bash</string>
+			<key>Shell Script File</key>
+			<string>dx.sh</string>
+			<key>Regular Expression</key>
+			<string>^(-?\d+)(\.\d+)?$</string>
+			<key>Title</key>
+			<string>数字小写转大写</string>
+			<key>After</key>
+			<string>preview-result</string>
+			<key>Long Running</key>
+			<true/>
+			<key>Requirements</key>
+			<array>
+				<string>option-dx=1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>After</key>
+			<string>preview-result</string>
+			<key>Image File</key>
+			<string>purenumber.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/python3</string>
+			<key>Shell Script File</key>
+			<string>purenumber.py</string>
+			<key>Title</key>
+			<string>PureNumber</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.*[\p{Han}\p{N}].*$</string>
+			<key>Requirements</key>
+			<array>
+				<string>option-pn=1</string>
+			</array>
+		</dict>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Identifier</key>
+			<string>64en</string>
+			<key>Option Label</key>
+			<string>Base64 Encode</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>64de</string>
+			<key>Option Label</key>
+			<string>Base64 Decode</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>urlen</string>
+			<key>Option Label</key>
+			<string>URL Encode</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>urlde</string>
+			<key>Option Label</key>
+			<string>URL Decode</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>htmlen</string>
+			<key>Option Label</key>
+			<string>HTML Encode</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>htmlde</string>
+			<key>Option Label</key>
+			<string>HTML Decode</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>conv</string>
+			<key>Option Label</key>
+			<string>Convert</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>json</string>
+			<key>Option Label</key>
+			<string>JSONizer</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>calc</string>
+			<key>Option Label</key>
+			<string>Calculate</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>sum</string>
+			<key>Option Label</key>
+			<string>Sum</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>separator</string>
+			<key>Option Type</key>
+			<string>string</string>
+			<key>Option Label</key>
+			<string>Separator</string>
+			<key>Option Default Value</key>
+			<string>,</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>delimiter</string>
+			<key>Option Type</key>
+			<string>string</string>
+			<key>Option Label</key>
+			<string>Decimal Delimiter</string>
+			<key>Option Default Value</key>
+			<string>.</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>formatoutput</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+			<key>Option Label</key>
+			<string>Format Output</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>short</string>
+			<key>Option Label</key>
+			<string>Shorten Link</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>domain</string>
+			<key>Option Label</key>
+			<dict>
+				<key>en</key>
+				<string>Shortening Service</string>
+			</dict>
+			<key>Option Type</key>
+			<string>multiple</string>
+			<key>Option Values</key>
+			<array>
+				<string>is.gd</string>
+				<string>v.gd</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>dx</string>
+			<key>Option Label</key>
+			<string>DaXie</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>pn</string>
+			<key>Option Label</key>
+			<string>PureNumber</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Base64-encode or decode the selected text.</string>
+	<key>Extension Identifier</key>
+	<string>in.fourplex.popclip.extension.base64</string>
+	<key>Extension Name</key>
+	<string>Cipher</string>
+	<key>Required Software Version</key>
+	<integer>701</integer>
+</dict>
+</plist>
