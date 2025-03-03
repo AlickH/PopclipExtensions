@@ -1,1 +1,0 @@
-tell application id "com.runningwithcrayons.Alfred" to run trigger "action" in workflow "com.mayuzumi.shortcuts" with argument "{popclip text}"
